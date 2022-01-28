@@ -305,9 +305,9 @@ const serveIndex = (req, res) => {
     />\r
     <link rel="icon" href="/assets/transparent-coffee-cup-icon-food-icon-coffee-shop-icon-5e943218b91909.3839303415867704567582.44884c76.png" type="image/icon type">\r
     <title>F4-Coffee</title>\r
-    <script type="module" crossorigin src="/assets/index.9a085c07.js"><\/script>
-    <link rel="modulepreload" href="/assets/vendor.ff7da8f9.js">
-    <link rel="stylesheet" href="/assets/index.5623e81c.css">
+    <script type="module" crossorigin src="/assets/index.a060159f.js"><\/script>
+    <link rel="modulepreload" href="/assets/vendor.a750bb53.js">
+    <link rel="stylesheet" href="/assets/index.d015917c.css">
   </head>\r
   <body>\r
     <div id="root">\r
