@@ -126,13 +126,13 @@ const Header: React.FC<TProps> = (props) => {
 				</div>
 				<PreViewCart />
 			</div>
-			<Link
+			{/* <Link
 				to="/login"
 				className="hidden lg:flex lg:items-center bg-orange-400 my-4 px-2 rounded-sm cursor-pointer"
 			>
 				<span className="text-tiny mr-2">Login</span>
 				<LoginIcon className="h-4 w-4" />
-			</Link>
+			</Link> */}
 			<div
 				onClick={toggleNavMenuMobile}
 				className="lg:hidden block z-50 cursor-pointer"
