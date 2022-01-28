@@ -1,0 +1,110 @@
+.btnContainer {
+	position: absolute;
+	top: 50%;
+	right: 10px;
+}
+
+.btn {
+	position: relative;
+	display: inline-block;
+	padding: 10px;
+	color: red;
+	text-decoration: none;
+	text-transform: uppercase;
+	transition: 0.5s;
+	font-weight: bold;
+	letter-spacing: 2px;
+	overflow: hidden;
+	animation: btnkeyframes 1s linear infinite;
+	background: #58b6d2;
+	color: yellow;
+}
+.btn:hover {
+	background: blue;
+	color: #fff;
+	animation: none;
+}
+@keyframes btnkeyframes {
+	0% {
+		color: yellow;
+	}
+	100% {
+		color: #042c5d;
+	}
+}
+.btn span {
+	position: absolute;
+	display: block;
+}
+.btn span:nth-child(1) {
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 20px;
+	background: linear-gradient(90deg, transparent, blue);
+	animation: animate1 1s linear infinite;
+}
+@keyframes animate1 {
+	0% {
+		left: -100%;
+	}
+	50%,
+	100% {
+		left: 100%;
+	}
+}
+.btn span:nth-child(2) {
+	top: -100%;
+	right: 0;
+	width: 15px;
+	height: 100%;
+	background: linear-gradient(180deg, transparent, blue);
+	animation: animate2 1s linear infinite;
+	animation-delay: 0.25s;
+}
+@keyframes animate2 {
+	0% {
+		top: -100%;
+	}
+	50%,
+	100% {
+		top: 100%;
+	}
+}
+.btn span:nth-child(3) {
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	height: 15px;
+	background: linear-gradient(270deg, transparent, blue);
+	animation: animate3 1s linear infinite;
+	animation-delay: 0.5s;
+}
+@keyframes animate3 {
+	0% {
+		right: -100%;
+	}
+	50%,
+	100% {
+		right: 100%;
+	}
+}
+
+.btn span:nth-child(4) {
+	bottom: -100%;
+	left: 0;
+	width: 10px;
+	height: 100%;
+	background: linear-gradient(360deg, transparent, blue);
+	animation: animate4 1s linear infinite;
+	animation-delay: 0.75s;
+}
+@keyframes animate4 {
+	0% {
+		bottom: -100%;
+	}
+	50%,
+	100% {
+		bottom: 100%;
+	}
+}
